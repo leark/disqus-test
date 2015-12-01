@@ -18,6 +18,7 @@ $(function() {
 	};
 
 	$.ajax({
+		type: "POST",
 		url: "https://disqus.com/api/3.0/forums/create.json",
 	  data: data,
 	  success: success,
